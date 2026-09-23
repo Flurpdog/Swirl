@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Swirl",
+    "slug": "swirl",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Swirl needs camera access to capture photos and video.",
+        "NSMicrophoneUsageDescription": "Swirl needs microphone access to record video with sound.",
+        "NSPhotoLibraryAddUsageDescription": "Swirl saves your captures to your photo library."
+      }
+    },
+    "android": {
+      "package": "com.swirl.app",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    }
+  }
+}
